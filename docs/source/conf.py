@@ -17,6 +17,10 @@ sys.path.insert(0, os.path.abspath('../..'))
 
 on_rtd = os.environ.get("READTHEDOCS", None) == "True"
 
+rtd_version = os.environ.get("READTHEDOCS_VERSION", "latest")
+if rtd_version not in ["stable", "latest"]:
+    rtd_version = "stable"
+
 # -- Project information -----------------------------------------------------
 
 project = 'AMOF netCDF docs home'
