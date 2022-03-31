@@ -5,4 +5,3 @@ pip
 requests
 Sphinx
 robotpy-sphinx-plugin
-os
