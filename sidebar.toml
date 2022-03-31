@@ -18,12 +18,12 @@ name = "Projects"
 items = [
     {p="home", k="Documentation Home", v="index"},
     {p="ncas_radar_wind_profiler_1_software", k="ncas-radar-wind-profiler-1-software home", v="index"},
-    {p="ncas_aws_10_software", k="ncas-aws-10-software home", v="index"}
+    {p="ncas_aws_10_software", k="ncas-aws-10-software home", v="index"},
 ]
 
 [[toctree]]
 name = "API Reference"
 items = [
     {p="ncas_radar_wind_profiler_1_software", k="ncas-radar-wind-profiler-1-software API", v="api"},
-    {p="ncas_aws_10_software", k="ncas-aws-10-software API", v="api"}
+    {p="ncas_aws_10_software", k="ncas-aws-10-software API", v="api"},
 ]
